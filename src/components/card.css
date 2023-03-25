@@ -1,0 +1,30 @@
+.Card {
+  background-color: white;
+  border: 1px solid gray;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 1px 1px 3px gray;
+  transition: all 0.2s ease-in-out;
+  width: 250px;
+}
+
+.Card.highlight {
+  background-color: #FAF4C6;
+  box-shadow: 1px 1px 5px gray;
+}
+
+.Card:hover {
+    background-color: #FAF4C6;
+  box-shadow: 1px 1px 5px gray;
+}
+ 
+.Card__title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.Card__body {
+  font-size: 1rem;
+  color: gray;
+}
